@@ -1,0 +1,88 @@
+body {
+
+}
+
+#generic {
+    display:block;
+    height: 1500px;
+    margin: 0% 10% 0% 10%;
+    width: 80%;
+}
+
+a{
+    font-size:   1em;
+    color      :black;
+    text-decoration: none;
+}
+
+.vl {
+    border-left: solid #DCDCDC;
+    height: 40px;
+
+    position: absolute;
+    left: 42.6%;
+    margin-left: -3px;
+    margin-top: 22px;
+    top: 0;
+    z-index: 20;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+
+.banner {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    height: 7%;
+    z-index:1;
+    background-color: #E8E8E8;
+}
+
+
+#search_bar {
+    float: left;
+    width: 400px;
+    margin: 30px 0px 0px 40px;
+}
+
+#search_input {
+width: 320px;
+}
+
+.icon {
+    margin: 30px 0px 0px 45px;
+    width: 40px;
+    background-size: 40px;
+    color: #1B998B
+}
+
+.secondary_pages {
+    width: auto;
+    position: absolute;
+    top:42%;
+    left: 74.3%;
+}
+.icon2 {
+    margin: -40px 0px 0px 45px;
+    width: 40px;
+    background-size: 40px;
+    color: #1B998B
+}
+
+
+
+
+/* font css til logotext*/
+#logotext1 {
+    margin: 0; position: absolute; left: 2%; top: 30%; color: black;
+}
+
+#logotext2 {
+    margin: 0; position: absolute; left: 8%; top: 30%; color: #1B998B;
+}

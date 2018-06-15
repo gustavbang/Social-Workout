@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css"
+              href="{% static 'frontpage/style.css' %}"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+
+</head>
+<body id="generic">
+
+
+    <div class="banner">
+        <div class="container">
+            <!-- logotext -->
+            <a href="/">
+                <h2 id="logotext1">Social</h2> <h2 id="logotext2">Workout</h2>
+            </a>
+
+            <div id="search_bar">
+                <form action="/search" method="post" class="search_bar">
+                    {% csrf_token %}
+                    <input type="text" placeholder="Search.." name="search" id="search_input">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="main_pages">
+                <a href="/"><i class="fa fa-user-plus icon w3-xlarge"></i></a>
+                <a href="/"><i class="fa fa-comment icon w3-xlarge"></i></a>
+                <a href="/"><i class="fa fa-bell icon w3-xlarge"></i></a>
+                <a href="/"><i class="fa fa-home icon w3-xlarge"></i></a>
+                <a href="/"><i class="fa fa-user-circle icon w3-xlarge"></i></a>
+
+            </div>
+<!-- inline styling -->
+             <div class="vl" style="position: absolute; left: 74%;"></div>
+
+            <div class="secondary_pages">
+                <a href="/"><i class="fa fa-user-plus icon2 w3-xlarge"></i></a>
+                <a href="/"><i class="fa fa-user-plus icon2 w3-xlarge"></i></a>
+                <a href="/"><i class="fa fa-user-plus icon2 w3-xlarge"></i></a>
+                <a href="/"><i class="fa fa-user-plus icon2 w3-xlarge"></i></a>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="main-content">
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer">
+    </div>
+
+
+
+
+
+
+
+
+<script>
+
+</script>
+</body>
+</html>
