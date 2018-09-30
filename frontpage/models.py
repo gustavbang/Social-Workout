@@ -9,5 +9,4 @@ class Post(models.Model):
 class Fitnessguy(models.Model):
     strength = models.IntegerField()
     firstName = models.CharField(max_length=200)
-    lastName = models.CharField(max_length=200)
 

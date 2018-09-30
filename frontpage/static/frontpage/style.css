@@ -9,6 +9,12 @@ body {
     width: 80%;
 }
 
+.icons {
+    width: 40px;
+    background-size: 40px;
+    color: #1B998B
+}
+
 a{
     font-size:   1em;
     color      :black;
@@ -31,8 +37,8 @@ a{
     margin: 0;
     padding: 0;
     height: 200px;
+    box-sizing: border-box;
 }
-
 
 .banner {
     overflow: hidden;
@@ -44,6 +50,14 @@ a{
     background-color: #E8E8E8;
 }
 
+/* font css til logotext*/
+#logotext1 {
+    margin: 0; position: absolute; left: 2%; top: 30%; color: black;
+}
+
+#logotext2 {
+    margin: 0; position: absolute; left: 8%; top: 30%; color: #1B998B;
+}
 
 #search_bar {
     float: left;
@@ -56,10 +70,7 @@ width: 320px;
 }
 
 .icon {
-    margin: 30px 0px 0px 45px;
-    width: 40px;
-    background-size: 40px;
-    color: #1B998B
+    margin: 25px 0px 0px 45px;
 }
 
 .secondary_pages {
@@ -70,19 +81,63 @@ width: 320px;
 }
 .icon2 {
     margin: -40px 0px 0px 45px;
-    width: 40px;
-    background-size: 40px;
-    color: #1B998B
 }
 
-
-
-
-/* font css til logotext*/
-#logotext1 {
-    margin: 0; position: absolute; left: 2%; top: 30%; color: black;
+.main-content {
+    margin-top: 6%;
+    z-index:1;
 }
 
-#logotext2 {
-    margin: 0; position: absolute; left: 8%; top: 30%; color: #1B998B;
+.feed_picker {
+    margin-left: 37%;
+}
+
+.headline_ad {
+    width: 100%;
+    height: 2%;
+    margin-left: 30%;
+}
+
+.blue {
+    color: blue;
+}
+
+.underlined {
+    text-decoration: underline;
+    display: inline;
+}
+
+.icon3 {
+    margin: 10px 0px 0px 45px;
+}
+
+.share_text_article_photo_video {
+    margin-left: 32%;
+    margin-top: 1%;
+    height: 5em;
+    width: 36em;
+}
+
+.feed_profile {
+    margin: -5.25% 0% 0% 7%;
+    border: 1px solid #DCDCDC;
+    width: 19%;
+}
+
+.profile_picture {
+    height: 105px;
+}
+
+.same_line {
+    float:left;
+}
+
+.account_name {
+    margin: 3% 0% 0% 4%;
+    font-family: Impact;
+}
+
+.account_text {
+    margin: 3% 0% 0% 37%;
+    font-family: Garamond;
 }
