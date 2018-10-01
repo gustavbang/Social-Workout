@@ -29,3 +29,11 @@ def detail(request, fitnessguy_id):
     #kan godt køre uden den sidste del (FG)
     return render(request, 'frontpage/detail.html', {'FG': fitGuy})
 
+
+def stats(request, fitnessguy_id):
+    try:
+        fitGuy = Fitnessguy.objects.get(pk=fitnessguy_id)
+    except Fitnessguy.DoesNotExist:
+        raise Http404("Fitnessguy does not exist")
+    #kan godt køre uden den sidste del (FG)
+    return render(request, 'frontpage/stats.html', {'FG': fitGuy})
